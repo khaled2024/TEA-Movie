@@ -15,6 +15,13 @@
 		EAEB0CB42E49DF6100499DA6 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CB12E49DF6100499DA6 /* NetworkingError.swift */; };
 		EAEB0CB52E49DF6100499DA6 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CB22E49DF6100499DA6 /* NetworkingService.swift */; };
 		EAEB0CBD2E49DFAA00499DA6 /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CBC2E49DFAA00499DA6 /* CacheAsyncImage.swift */; };
+		EAEB0CBF2E49E02F00499DA6 /* loadingAnimation-red.json in Resources */ = {isa = PBXBuildFile; fileRef = EAEB0CBE2E49E02F00499DA6 /* loadingAnimation-red.json */; };
+		EAEB0CC12E49E04C00499DA6 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CC02E49E04C00499DA6 /* YouTubePlayer.swift */; };
+		EAEB0CC32E49E05400499DA6 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CC22E49E05400499DA6 /* LottieView.swift */; };
+		EAEB0CC72E49E08400499DA6 /* Ex+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CC62E49E08400499DA6 /* Ex+Colors.swift */; };
+		EAEB0CC92E49E08A00499DA6 /* Ex+ButtonPrimaryStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CC82E49E08A00499DA6 /* Ex+ButtonPrimaryStyle.swift */; };
+		EAEB0CCB2E49E09100499DA6 /* Ex+FormateDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CCA2E49E09100499DA6 /* Ex+FormateDouble.swift */; };
+		EAEB0CCD2E49E0C700499DA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CCC2E49E0C700499DA6 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +32,13 @@
 		EAEB0CB12E49DF6100499DA6 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
 		EAEB0CB22E49DF6100499DA6 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		EAEB0CBC2E49DFAA00499DA6 /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
+		EAEB0CBE2E49E02F00499DA6 /* loadingAnimation-red.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "loadingAnimation-red.json"; sourceTree = "<group>"; };
+		EAEB0CC02E49E04C00499DA6 /* YouTubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubePlayer.swift; sourceTree = "<group>"; };
+		EAEB0CC22E49E05400499DA6 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		EAEB0CC62E49E08400499DA6 /* Ex+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Colors.swift"; sourceTree = "<group>"; };
+		EAEB0CC82E49E08A00499DA6 /* Ex+ButtonPrimaryStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+ButtonPrimaryStyle.swift"; sourceTree = "<group>"; };
+		EAEB0CCA2E49E09100499DA6 /* Ex+FormateDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+FormateDouble.swift"; sourceTree = "<group>"; };
+		EAEB0CCC2E49E0C700499DA6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,16 +82,15 @@
 			isa = PBXGroup;
 			children = (
 				EAEB0CB92E49DF6100499DA6 /* Cashed */,
-				EAEB0CBB2E49DF6100499DA6 /* Recources */,
+				EAEB0CB02E49DF6100499DA6 /* Core */,
+				EAEB0CB32E49DF6100499DA6 /* Networking */,
 				EAEB0CAF2E49DF5800499DA6 /* Constants */,
 				EAEB0CB62E49DF6100499DA6 /* Extensions */,
 				EAEB0CB72E49DF6100499DA6 /* UiKitComponants */,
 				EAEB0CB82E49DF6100499DA6 /* Views */,
-				EAEB0CB02E49DF6100499DA6 /* Core */,
 				EAEB0CBA2E49DF6100499DA6 /* Model */,
-				EAEB0CB32E49DF6100499DA6 /* Networking */,
+				EAEB0CBB2E49DF6100499DA6 /* Recources */,
 				EAEB0C932E49DE5800499DA6 /* Preview Content */,
-				EAEB0C942E49DE5800499DA6 /* Assets.xcassets */,
 				EAEB0C962E49DE5800499DA6 /* TEA_MovieApp.swift */,
 			);
 			path = "TEA-Movie";
@@ -86,6 +99,7 @@
 		EAEB0CAF2E49DF5800499DA6 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				EAEB0CCC2E49E0C700499DA6 /* Constants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -109,6 +123,9 @@
 		EAEB0CB62E49DF6100499DA6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				EAEB0CC62E49E08400499DA6 /* Ex+Colors.swift */,
+				EAEB0CC82E49E08A00499DA6 /* Ex+ButtonPrimaryStyle.swift */,
+				EAEB0CCA2E49E09100499DA6 /* Ex+FormateDouble.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -116,6 +133,8 @@
 		EAEB0CB72E49DF6100499DA6 /* UiKitComponants */ = {
 			isa = PBXGroup;
 			children = (
+				EAEB0CC02E49E04C00499DA6 /* YouTubePlayer.swift */,
+				EAEB0CC22E49E05400499DA6 /* LottieView.swift */,
 			);
 			path = UiKitComponants;
 			sourceTree = "<group>";
@@ -145,6 +164,8 @@
 		EAEB0CBB2E49DF6100499DA6 /* Recources */ = {
 			isa = PBXGroup;
 			children = (
+				EAEB0C942E49DE5800499DA6 /* Assets.xcassets */,
+				EAEB0CBE2E49E02F00499DA6 /* loadingAnimation-red.json */,
 			);
 			path = Recources;
 			sourceTree = "<group>";
@@ -216,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEB0CBF2E49E02F00499DA6 /* loadingAnimation-red.json in Resources */,
 				EAEB0C9A2E49DE5800499DA6 /* Preview Assets.xcassets in Resources */,
 				EAEB0C9B2E49DE5800499DA6 /* Assets.xcassets in Resources */,
 			);
@@ -229,9 +251,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAEB0CB42E49DF6100499DA6 /* NetworkingError.swift in Sources */,
+				EAEB0CC12E49E04C00499DA6 /* YouTubePlayer.swift in Sources */,
+				EAEB0CCB2E49E09100499DA6 /* Ex+FormateDouble.swift in Sources */,
 				EAEB0CBD2E49DFAA00499DA6 /* CacheAsyncImage.swift in Sources */,
 				EAEB0CB52E49DF6100499DA6 /* NetworkingService.swift in Sources */,
+				EAEB0CCD2E49E0C700499DA6 /* Constants.swift in Sources */,
+				EAEB0CC72E49E08400499DA6 /* Ex+Colors.swift in Sources */,
 				EAEB0C992E49DE5800499DA6 /* TEA_MovieApp.swift in Sources */,
+				EAEB0CC32E49E05400499DA6 /* LottieView.swift in Sources */,
+				EAEB0CC92E49E08A00499DA6 /* Ex+ButtonPrimaryStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,6 +34,14 @@
 		EAEB0CF02E4A7C6900499DA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CEC2E4A7C6900499DA6 /* HomeView.swift */; };
 		EAEB0CF22E4A7CAB00499DA6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CF12E4A7CAB00499DA6 /* ErrorView.swift */; };
 		EAEB0CF42E4A7CBA00499DA6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CF32E4A7CBA00499DA6 /* LoadingView.swift */; };
+		EAEB0CFA2E4A7D4000499DA6 /* SeeMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CF82E4A7D4000499DA6 /* SeeMoreView.swift */; };
+		EAEB0D092E4A7DAD00499DA6 /* PopularityBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0D042E4A7DAD00499DA6 /* PopularityBadgeView.swift */; };
+		EAEB0D0A2E4A7DAD00499DA6 /* RatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0D052E4A7DAD00499DA6 /* RatingBar.swift */; };
+		EAEB0D0B2E4A7DAD00499DA6 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0D062E4A7DAD00499DA6 /* SuccessView.swift */; };
+		EAEB0D0D2E4A7DCB00499DA6 /* ShowDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0D0C2E4A7DCB00499DA6 /* ShowDetailsView.swift */; };
+		EAEB0D1D2E4A7E4D00499DA6 /* UpcomingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0D172E4A7E4D00499DA6 /* UpcomingViewModel.swift */; };
+		EAEB0D1E2E4A7E4D00499DA6 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0D192E4A7E4D00499DA6 /* ListRowView.swift */; };
+		EAEB0D1F2E4A7E4D00499DA6 /* UpcomingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0D1B2E4A7E4D00499DA6 /* UpcomingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +71,14 @@
 		EAEB0CEC2E4A7C6900499DA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EAEB0CF12E4A7CAB00499DA6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		EAEB0CF32E4A7CBA00499DA6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EAEB0CF82E4A7D4000499DA6 /* SeeMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeMoreView.swift; sourceTree = "<group>"; };
+		EAEB0D042E4A7DAD00499DA6 /* PopularityBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularityBadgeView.swift; sourceTree = "<group>"; };
+		EAEB0D052E4A7DAD00499DA6 /* RatingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingBar.swift; sourceTree = "<group>"; };
+		EAEB0D062E4A7DAD00499DA6 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		EAEB0D0C2E4A7DCB00499DA6 /* ShowDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsView.swift; sourceTree = "<group>"; };
+		EAEB0D172E4A7E4D00499DA6 /* UpcomingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewModel.swift; sourceTree = "<group>"; };
+		EAEB0D192E4A7E4D00499DA6 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		EAEB0D1B2E4A7E4D00499DA6 /* UpcomingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +148,10 @@
 			isa = PBXGroup;
 			children = (
 				EAEB0CDC2E4A7BE800499DA6 /* MainTabView.swift */,
+				EAEB0D1C2E4A7E4D00499DA6 /* UpcomingView */,
 				EAEB0CED2E4A7C6900499DA6 /* HomeView */,
+				EAEB0CF92E4A7D4000499DA6 /* SeeMoreView */,
+				EAEB0D082E4A7DAD00499DA6 /* ShowDetailsView */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -230,6 +249,59 @@
 			path = HomeView;
 			sourceTree = "<group>";
 		};
+		EAEB0CF92E4A7D4000499DA6 /* SeeMoreView */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB0CF82E4A7D4000499DA6 /* SeeMoreView.swift */,
+			);
+			path = SeeMoreView;
+			sourceTree = "<group>";
+		};
+		EAEB0D072E4A7DAD00499DA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB0D042E4A7DAD00499DA6 /* PopularityBadgeView.swift */,
+				EAEB0D052E4A7DAD00499DA6 /* RatingBar.swift */,
+				EAEB0D062E4A7DAD00499DA6 /* SuccessView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAEB0D082E4A7DAD00499DA6 /* ShowDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB0D072E4A7DAD00499DA6 /* Views */,
+				EAEB0D0C2E4A7DCB00499DA6 /* ShowDetailsView.swift */,
+			);
+			path = ShowDetailsView;
+			sourceTree = "<group>";
+		};
+		EAEB0D182E4A7E4D00499DA6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB0D172E4A7E4D00499DA6 /* UpcomingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EAEB0D1A2E4A7E4D00499DA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB0D192E4A7E4D00499DA6 /* ListRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAEB0D1C2E4A7E4D00499DA6 /* UpcomingView */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB0D1B2E4A7E4D00499DA6 /* UpcomingView.swift */,
+				EAEB0D182E4A7E4D00499DA6 /* ViewModel */,
+				EAEB0D1A2E4A7E4D00499DA6 /* Views */,
+			);
+			path = UpcomingView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -311,6 +383,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAEB0CB42E49DF6100499DA6 /* NetworkingError.swift in Sources */,
+				EAEB0D1D2E4A7E4D00499DA6 /* UpcomingViewModel.swift in Sources */,
+				EAEB0D1E2E4A7E4D00499DA6 /* ListRowView.swift in Sources */,
+				EAEB0D1F2E4A7E4D00499DA6 /* UpcomingView.swift in Sources */,
+				EAEB0CFA2E4A7D4000499DA6 /* SeeMoreView.swift in Sources */,
 				EAEB0CC12E49E04C00499DA6 /* YouTubePlayer.swift in Sources */,
 				EAEB0CCB2E49E09100499DA6 /* Ex+FormateDouble.swift in Sources */,
 				EAEB0CF42E4A7CBA00499DA6 /* LoadingView.swift in Sources */,
@@ -326,12 +402,16 @@
 				EAEB0CD52E4A7B6900499DA6 /* ShowModel.swift in Sources */,
 				EAEB0CDD2E4A7BE800499DA6 /* MainTabView.swift in Sources */,
 				EAEB0CC72E49E08400499DA6 /* Ex+Colors.swift in Sources */,
+				EAEB0D0D2E4A7DCB00499DA6 /* ShowDetailsView.swift in Sources */,
 				EAEB0CD72E4A7B7900499DA6 /* YoutubeResponse.swift in Sources */,
 				EAEB0C992E49DE5800499DA6 /* TEA_MovieApp.swift in Sources */,
 				EAEB0CD12E4A7B4F00499DA6 /* DownloadShowModel.swift in Sources */,
 				EAEB0CC32E49E05400499DA6 /* LottieView.swift in Sources */,
 				EAEB0CC92E49E08A00499DA6 /* Ex+ButtonPrimaryStyle.swift in Sources */,
 				EAEB0CCF2E4A7B3C00499DA6 /* HomeCacheModel.swift in Sources */,
+				EAEB0D092E4A7DAD00499DA6 /* PopularityBadgeView.swift in Sources */,
+				EAEB0D0A2E4A7DAD00499DA6 /* RatingBar.swift in Sources */,
+				EAEB0D0B2E4A7DAD00499DA6 /* SuccessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +545,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TEA-Movie/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -472,7 +553,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,6 +575,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TEA-Movie/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -501,7 +583,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

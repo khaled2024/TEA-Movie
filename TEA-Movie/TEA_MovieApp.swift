@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct TEA_MovieApp: App {
+    // MARK: - Properties
+    @StateObject private var downloadShowModel = DownloadShowModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .environmentObject(downloadShowModel)
+                
         }
     }
 }

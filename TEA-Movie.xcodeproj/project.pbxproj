@@ -6,23 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EAEB0C992E49DE5800499DA6 /* TEA_MovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0C962E49DE5800499DA6 /* TEA_MovieApp.swift */; };
+		EAEB0C9A2E49DE5800499DA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAEB0C922E49DE5800499DA6 /* Preview Assets.xcassets */; };
+		EAEB0C9B2E49DE5800499DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAEB0C942E49DE5800499DA6 /* Assets.xcassets */; };
+		EAEB0C9E2E49DEA100499DA6 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = EAEB0C9D2E49DEA100499DA6 /* Lottie */; };
+		EAEB0CA12E49DEB200499DA6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EAEB0CA02E49DEB200499DA6 /* Kingfisher */; };
+		EAEB0CB42E49DF6100499DA6 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CB12E49DF6100499DA6 /* NetworkingError.swift */; };
+		EAEB0CB52E49DF6100499DA6 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CB22E49DF6100499DA6 /* NetworkingService.swift */; };
+		EAEB0CBD2E49DFAA00499DA6 /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB0CBC2E49DFAA00499DA6 /* CacheAsyncImage.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EAEB0C782E49D81300499DA6 /* TEA-Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TEA-Movie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEB0C922E49DE5800499DA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAEB0C942E49DE5800499DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAEB0C962E49DE5800499DA6 /* TEA_MovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEA_MovieApp.swift; sourceTree = "<group>"; };
+		EAEB0CB12E49DF6100499DA6 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		EAEB0CB22E49DF6100499DA6 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		EAEB0CBC2E49DFAA00499DA6 /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EAEB0C7A2E49D81300499DA6 /* TEA-Movie */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "TEA-Movie";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EAEB0C752E49D81300499DA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEB0CA12E49DEB200499DA6 /* Kingfisher in Frameworks */,
+				EAEB0C9E2E49DEA100499DA6 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +43,7 @@
 		EAEB0C6F2E49D81300499DA6 = {
 			isa = PBXGroup;
 			children = (
-				EAEB0C7A2E49D81300499DA6 /* TEA-Movie */,
+				EAEB0C972E49DE5800499DA6 /* TEA-Movie */,
 				EAEB0C792E49D81300499DA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,99 @@
 				EAEB0C782E49D81300499DA6 /* TEA-Movie.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EAEB0C932E49DE5800499DA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB0C922E49DE5800499DA6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAEB0C972E49DE5800499DA6 /* TEA-Movie */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB0CB92E49DF6100499DA6 /* Cashed */,
+				EAEB0CBB2E49DF6100499DA6 /* Recources */,
+				EAEB0CAF2E49DF5800499DA6 /* Constants */,
+				EAEB0CB62E49DF6100499DA6 /* Extensions */,
+				EAEB0CB72E49DF6100499DA6 /* UiKitComponants */,
+				EAEB0CB82E49DF6100499DA6 /* Views */,
+				EAEB0CB02E49DF6100499DA6 /* Core */,
+				EAEB0CBA2E49DF6100499DA6 /* Model */,
+				EAEB0CB32E49DF6100499DA6 /* Networking */,
+				EAEB0C932E49DE5800499DA6 /* Preview Content */,
+				EAEB0C942E49DE5800499DA6 /* Assets.xcassets */,
+				EAEB0C962E49DE5800499DA6 /* TEA_MovieApp.swift */,
+			);
+			path = "TEA-Movie";
+			sourceTree = "<group>";
+		};
+		EAEB0CAF2E49DF5800499DA6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EAEB0CB02E49DF6100499DA6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EAEB0CB32E49DF6100499DA6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB0CB12E49DF6100499DA6 /* NetworkingError.swift */,
+				EAEB0CB22E49DF6100499DA6 /* NetworkingService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EAEB0CB62E49DF6100499DA6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EAEB0CB72E49DF6100499DA6 /* UiKitComponants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UiKitComponants;
+			sourceTree = "<group>";
+		};
+		EAEB0CB82E49DF6100499DA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAEB0CB92E49DF6100499DA6 /* Cashed */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB0CBC2E49DFAA00499DA6 /* CacheAsyncImage.swift */,
+			);
+			path = Cashed;
+			sourceTree = "<group>";
+		};
+		EAEB0CBA2E49DF6100499DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAEB0CBB2E49DF6100499DA6 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +164,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				EAEB0C7A2E49D81300499DA6 /* TEA-Movie */,
-			);
 			name = "TEA-Movie";
 			packageProductDependencies = (
+				EAEB0C9D2E49DEA100499DA6 /* Lottie */,
+				EAEB0CA02E49DEB200499DA6 /* Kingfisher */,
 			);
 			productName = "TEA-Movie";
 			productReference = EAEB0C782E49D81300499DA6 /* TEA-Movie.app */;
@@ -94,6 +197,10 @@
 			);
 			mainGroup = EAEB0C6F2E49D81300499DA6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EAEB0C9C2E49DEA100499DA6 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				EAEB0C9F2E49DEB200499DA6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EAEB0C792E49D81300499DA6 /* Products */;
 			projectDirPath = "";
@@ -109,6 +216,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEB0C9A2E49DE5800499DA6 /* Preview Assets.xcassets in Resources */,
+				EAEB0C9B2E49DE5800499DA6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEB0CB42E49DF6100499DA6 /* NetworkingError.swift in Sources */,
+				EAEB0CBD2E49DFAA00499DA6 /* CacheAsyncImage.swift in Sources */,
+				EAEB0CB52E49DF6100499DA6 /* NetworkingService.swift in Sources */,
+				EAEB0C992E49DE5800499DA6 /* TEA_MovieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +372,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +401,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,6 +437,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EAEB0C9C2E49DEA100499DA6 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
+		EAEB0C9F2E49DEB200499DA6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAEB0C9D2E49DEA100499DA6 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAEB0C9C2E49DEA100499DA6 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		EAEB0CA02E49DEB200499DA6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAEB0C9F2E49DEB200499DA6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EAEB0C702E49D81300499DA6 /* Project object */;
 }

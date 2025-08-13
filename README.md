@@ -43,6 +43,7 @@ Key Features
 <img width="200" height="400" alt="Simulator Screenshot - iPhone 15 Pro - 2025-08-13 at 09 39 06" src="https://github.com/user-attachments/assets/9ba0583c-19a7-4736-9fbf-dcdb9b787a53" />
 
 
+<img width="200" height="400" alt="Simulator Screenshot - iPhone 15 Pro - 2025-08-13 at 09 39 34" src="https://github.com/user-attachments/assets/5627b8e7-8b37-45e8-b991-cad71ae005a2" />
 
 
 <img width="200" height="400" alt="Simulator Screenshot - iPhone 15 Pro - 2025-08-13 at 09 39 24" src="https://github.com/user-attachments/assets/a2c3661d-e4d7-470d-b88b-0064f30eeb2f" />

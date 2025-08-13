@@ -22,5 +22,5 @@ Key Features
 - 📌 TEA-Movie is your perfect companion to explore, track, and enjoy the world of cinema and television – anytime, anywhere.
 
   # ScreenShots
-  <img width="1179" height="2556" alt="Simulator Screenshot - iPhone 15 Pro - 2025-08-13 at 09 38 42" src="https://github.com/user-attachments/assets/757d0d44-aba5-4484-a074-492b145ff5b7" />
+  <img width="400" height="1024" alt="Simulator Screenshot - iPhone 15 Pro - 2025-08-13 at 09 38 42" src="https://github.com/user-attachments/assets/757d0d44-aba5-4484-a074-492b145ff5b7" />
 
